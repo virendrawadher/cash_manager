@@ -9,13 +9,14 @@ Cash Manager is the app that calculate balance amount between cash given and bil
 
 ## About app
 It takes the two input 
-- 1) Bill amount
-- 2) Cash Given
+- Bill amount
+- Cash Given
+
 It takes the difference between cash given and bill amount. According to balance it shows notes or coin given back to customer.
 
 ![Cash Manager](cash-manager.jpg)
 
-[Cash Manager]()
+[Cash Manager](https://cashmanagers.netlify.app/)
 
 ## Connect Me
 - [Twitter](https://www.twitter.com/virendra_wadher)

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+:root{
+    --background-color : #D1FAE5;
+    --primary-color : #111827;
+    --shadow-color: #d1fae5b4;
+
+}
+
+body{
+    background-color: var(--background-color);
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#container{
+    text-align: center;
+    /* border: 1px solid var(--primary-color); */
+    box-shadow: 0.5rem 0.5rem 1rem 1rem #c0f0d9;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+h1{
+    padding-top: 1rem;
+    font-family: 'Audiowide', cursive;
+}
+
+#cashAmt{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    background-color: var(--background-color);
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid var(--background-color);
+}
+
+#cashAmt:focus{
+    outline: none;
+}
+
+#cashAmt[type = number]::-webkit-inner-spin-button, #cashAmt[type = number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#cashGiven{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    background-color: var(--background-color);
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid var(--background-color); 
+}
+
+#cashGiven:focus{
+    outline: none;
+}
+
+#cashGiven[type = number]::-webkit-inner-spin-button, #cashGiven[type = number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#return-change{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+#return-change:hover, #return-change:focus{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    outline: none;
+}
+
+#output-text{
+    /* border: 1px solid; */
+    width: 35%;
+    height: 50vh;
+    text-align: center;
+    margin: 1rem 0 0 32%;
+    display: block;
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    padding-left: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 1rem;
+}

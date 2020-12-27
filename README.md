@@ -18,7 +18,7 @@ It takes the difference between cash given and bill amount. According to balance
 
 [Cash Manager](https://cashmanagers.netlify.app/)
 
-## Connect Me
+## Connect With Me
 - [Twitter](https://www.twitter.com/virendra_wadher)
 - [GitHub](https://www.github.com/virendrawadher)
 - [LinkedIn](https://www.linkedin.com/in/virendra-wadher-042741155/)
